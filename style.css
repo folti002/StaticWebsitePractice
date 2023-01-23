@@ -1,7 +1,16 @@
 body {
-  background-color: red;
+  background-color: #cd362f;
+  align-items: center;
+}
+
+h1 {
+  align-items: center;
 }
 
 img {
   width: 50%;
+}
+
+p {
+  
 }
