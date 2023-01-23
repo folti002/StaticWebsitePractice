@@ -1,5 +1,9 @@
 function addName(){
   let name = document.getElementById("name").value;
-  console.log(name);
-  document.getElementById("nameList").innerHTML += "<li> " + name + "</li>";
+  if(name){
+    console.log(name);
+    document.getElementById("nameList").innerHTML += "<li> " + name + "</li>";
+  } else {
+    console.log("Empty name was not added");
+  }
 }
